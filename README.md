@@ -21,11 +21,11 @@ sudo make install clean
 ```
 >[!NOTE]
     You can change the prefix of installation using the following snippet.
-    ```sh
-    make PREFIX=<path> install clean
-    ```
-    * make sure to replace <path> with an actual path or this will not work!!
-    * changing the PREFIX is not recommended and will give you a hard time to uninstall.
+ ```sh
+ make PREFIX=<path> install clean
+ ```
+* make sure to replace <path> with an actual path or this will not work!!
+* changing the PREFIX is not recommended and will give you a hard time to uninstall.
 ## Uninstallation
 cd into the directory you cloned and run the following snippet
 ```sh
